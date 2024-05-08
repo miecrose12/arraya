@@ -1,0 +1,298 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    font-family: inter;
+    align-items: center;
+    font-weight: 270;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-right: 200px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+.logo {
+    font-family: inter;
+    font-weight: 600;
+    font-size: 30px;
+    margin-left: 200px;
+}
+
+#page1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(Rectangle.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.title {
+    font-family: inter;
+    font-size: 80px;
+    margin-top: 200px;
+    margin-left: 200px;
+    line-height: 80px;
+    letter-spacing: -3px;
+    font-weight: 700;
+}
+
+.button {
+    padding: 20px 90px;
+    background-color: #3595E9;
+    color: #fff;
+    text-decoration: none;
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.button-container {
+    display: flex;
+    margin-top: 70px;
+    margin-left: 200px;
+}
+
+#page2 {
+    margin-top: 150px;
+    margin-bottom: 140px;
+}
+
+.image2 {
+    float: right;
+}
+
+.first-text {
+    color: black;
+    font-family: inter;
+    text-align: left;
+    padding-top: 150px;
+    padding-left: 200px;
+    font-weight: 300;
+    font-size: 60px;
+    letter-spacing: -1px;
+}
+
+#page3 {
+    margin-top: 300px;
+    margin-bottom: 280px;
+}
+
+.image3 {
+    float: left;
+}
+
+.second-text-main {
+    padding-left: 837px;
+    padding-top: 150px;
+    text-align: left;
+}
+
+.head1 {
+    color: #3595E9;
+    font-family: inter;
+    font-weight: 300;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.second-text,
+.third-text,
+.fourth-text {
+    font-size: 30px;
+    color: black;
+    font-family: inter;
+    font-weight: 250;
+    margin-bottom: 40px;
+}
+
+#page4 {
+    margin-bottom: 0px;
+    max-width: 100%; 
+    height: auto;
+}
+
+.image4 {
+    float: right;
+}
+
+.line {
+    padding-left: 200px;
+    width: 700px;
+}
+
+.service {
+    padding-top: 40px;
+}
+
+.subtext {
+    color: #282828;
+    font-family: inter;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 200px;
+    font-weight: 300;
+    font-size: 50px;
+    letter-spacing: -1px;
+}
+
+.arrow {
+    padding-top: px;
+}
+
+.button-container2 {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 70px;
+    margin-left: 200px;
+}
+
+.button2 {
+    padding: 20px 90px;
+    background-color: #3595E9;
+    color: #fff;
+    text-decoration: none;
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+}
+
+.button-container2 {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 150px;
+    margin-left: 200px;
+}
+
+.button3 {
+    padding: 20px 90px;
+    background-color: #25D366;
+    color: #fff;
+    text-decoration: none;
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+}
+
+.button-container3 {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-bottom: 70px;
+}
+
+#footer {
+    background-color: #3B3A3A;
+}
+
+.part1 {
+    padding-top: 30px;
+    align-items: center;
+}
+
+.footer-logo {
+    font-family: inter;
+    font-weight: 600;
+    font-size: 30px;
+    margin-left: 200px;
+}
+
+.contact {
+    font-family: inter;
+    font-weight: 100;
+    font-size: 20px;
+    padding-left: 800px;
+}
+
+.location-and-phone {
+    font-family: inter;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 25px;
+    padding-left: 800px;
+    padding-bottom: 40px;
+}
+
+.line2 {
+    padding-left: 200px;
+    display: flex;
+    width: 1100px;
+    
+}
+
+.nav2 {
+    display: flex;
+    font-family: inter;
+    align-items: center;
+    font-weight: 100;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 200px;
+}
+
+.nav2 ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.nav2 ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+}
+
+@media only screen and (max-width: 600px)
+{
+    
+}

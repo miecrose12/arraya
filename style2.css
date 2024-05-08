@@ -1,0 +1,181 @@
+:root {
+    --white-color: #ffffff;
+    --black-color: #282828;
+    --accent-color: #3595E9;
+    --dark-color: #000000;
+    --green-color: #25D366;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "poppins" sans-serif;
+}
+
+/* header */
+
+header {
+    background-image: url(Rectangle.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 1120px;
+    top: 36px;
+    z-index: 100;
+}
+
+nav .logo {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 3%;
+    margin-left: 150px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 56px;
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li a {
+    font-family: "inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.hero-section {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-section .left h1 {
+    font-family: Inter;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 85%;
+    letter-spacing: -0.055em; 
+    color: #ffffff;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+/* Basic button styling */
+.btn {
+    display: inline-block;
+    padding: 19px 70px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #ffffff; 
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none; 
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-left: 150px;
+    font-family: "inter", sans-serif;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.btn:active {
+    transform: translateY(1px);
+}
+
+
+section {
+    margin-top: 150px;
+}
+
+h2 {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 54.05px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #000000;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.member-section {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pic {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pic img {
+    width: 700px;
+    height: 600px;
+    top: 1900px;
+    left: -10px;
+    gap: 0px;
+    opacity: 0px;
+    size: 20cap;
+    margin-bottom: 120px;
+}
+
+.ben .benefits-section h2 {
+    width: 169px;
+    height: 55px;
+    top: 2015px;
+    left: 985px;
+    gap: 0px;
+    opacity: 0px;
+    color: #0056b3;
+    margin-left: -400px;
+}
+
+.ben .benefits-section p {
+    width: 169px;
+    height: 55px;
+    top: 2015px;
+    left: 985px;
+    gap: 0px;
+    opacity: 0px;
+    margin-left: -400px;
+}
+
+.navbar2 {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* flex-direction: column; */
+}
+
